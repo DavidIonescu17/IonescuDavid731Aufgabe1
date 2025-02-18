@@ -10,5 +10,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give point input to filter by: ");
         EventFilter.filterEvent(events,Double.parseDouble(scanner.nextLine()));
+        EventSorter.sortEvents(events);
     }
 }
